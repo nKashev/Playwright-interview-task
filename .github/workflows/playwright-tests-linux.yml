@@ -9,7 +9,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 15 * * *'  # Runs at 15:00 UTC every day
+    - cron: '30 15 * * *'  # Runs at 15:30 UTC every day
 
 jobs:
   test-linux:
