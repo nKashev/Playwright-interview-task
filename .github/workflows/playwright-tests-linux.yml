@@ -1,7 +1,6 @@
 name: Playwright Tests on Ubuntu
 
 on:
-  # Trigger the workflow on push or pull request to main branch
   push:
     branches:
       - main
@@ -9,7 +8,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '30 15 * * *'  # Runs at 15:30 UTC every day
+    - cron: '0 16 * * *'  # Runs at 15:00 UTC every day
 
 jobs:
   test-linux:
