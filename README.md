@@ -14,4 +14,5 @@ Extra:
 I converted the logic of ValidateHackerNewsArticles function to Playwright test.
 
 I created workflows to run daily tests on various browsers on the latest Windows and Ubuntu operating systems.
+
 [![Open Actions](https://img.shields.io/badge/Open-Actions-brightgreen?style=for-the-badge)](https://github.com/nKashev/Playwright-interview-task/actions)
