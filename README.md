@@ -1,6 +1,6 @@
 # Playwright-interview-task
 
-An automation QA job application with a walk-through demonstration of my code, showing a successful execution of following task:
+A QA automation job application with a walk-through demonstration of my code, showing a successful execution of following task:
 
 "In this assignment, you will create a script on [Hacker News](https://news.ycombinator.com/) using JavaScript and Microsoft's [Playwright](https://playwright.dev/) framework. 
 
