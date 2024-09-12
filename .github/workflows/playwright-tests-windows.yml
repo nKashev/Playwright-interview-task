@@ -1,14 +1,14 @@
 name: Playwright Tests on Windows
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+  #   branches:
+  #     - main
   schedule:
-    - cron: '30 16 * * *'  # Runs at 16:30 UTC every day
+    - cron: '00 15 * * *'  # Runs at 16:30 UTC every day
 
 jobs:
   test-windows:
