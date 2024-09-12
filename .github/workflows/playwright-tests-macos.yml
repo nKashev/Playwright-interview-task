@@ -8,7 +8,7 @@ on:
 #     branches:
 #       - main
   schedule:
-    - cron: '00 15 * * *'  # Runs at 15:00 UTC every day
+    - cron: '00 15 * * *'
 
 jobs:
   test-macos:
@@ -27,7 +27,9 @@ jobs:
         run: npm ci
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: |
+          npx playwright install --with-deps
+          npx playwright install msedge
 
       - name: Run Playwright Tests
         run: npx playwright test
