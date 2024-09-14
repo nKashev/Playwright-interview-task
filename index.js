@@ -77,7 +77,7 @@ async function validateHackerNewsArticles() {
   console.log("Extracted article dates:", articles);
 
   let isSorted = true;
-  for (let i=0; i < articles.length-1; i++) {
+  for (let i = 0; i < articles.length-1; i++) {
     const currentArticleDate = new Date(articles[i].age);
     const nextArticleDate = new Date(articles[i+1].age);
 
