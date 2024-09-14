@@ -34,7 +34,7 @@ test('Validate that Hacker News articles are sorted correctly', async ({ page })
 
   // Check if articles are sorted from newest to oldest
   let isSorted = true;
-  for (let i=0; i < articles.length-1; i++) {
+  for (let i = 0; i < articles.length-1; i++) {
     const currentArticleDate = new Date(articles[i].age);
     const nextArticleDate = new Date(articles[i+1].age);
 
