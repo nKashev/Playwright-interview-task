@@ -11,8 +11,8 @@ A QA automation job application with a walk-through demonstration of my code, sh
 Note that you are welcome to update Playwright or install other packages as you see fit, however you must utilize Playwright in this assignment."
 
 Extra:
-I converted the logic of ValidateHackerNewsArticles function to Playwright test.
+I converted the logic of ValidateHackerNewsArticles function from `index.js` to Playwright test.
 
-I created workflows to run daily tests on various browsers on the latest Windows and Ubuntu operating systems.
+I created workflows to run daily tests on various browsers on the latest Windows, Mac and Ubuntu operating systems.
 
 [![Open Actions](https://img.shields.io/badge/Open-Actions-brightgreen?style=for-the-badge)](https://github.com/nKashev/Playwright-interview-task/actions)
