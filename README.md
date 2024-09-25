@@ -11,7 +11,7 @@ A QA automation job application with a walk-through demonstration of my code, sh
 Note that you are welcome to update Playwright or install other packages as you see fit, however you must utilize Playwright in this assignment."
 
 Extra:
-I converted the logic of ValidateHackerNewsArticles function from `index.js` to Playwright test.
+I converted the logic of sortHackerNewsArticles function from `index.js` to Playwright test.
 
 I created workflows to run daily tests on various browsers on the latest Windows, Mac and Ubuntu operating systems.
 
