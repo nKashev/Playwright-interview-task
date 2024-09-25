@@ -4,7 +4,7 @@ const { chromium } = require("playwright");
 const { firefox } = require("playwright");
 
 
-async function validateHackerNewsArticles() {
+async function sortHackerNewsArticles() {
   const browser = await chromium.launch({
     headless: false,
     args: ['--start-maximized']
@@ -109,5 +109,5 @@ async function validateHackerNewsArticles() {
 }
 
 (async () => {
-  await validateHackerNewsArticles();
+  await sortHackerNewsArticles();
 })();
