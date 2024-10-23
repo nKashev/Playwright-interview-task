@@ -15,4 +15,4 @@ I converted the logic of sortHackerNewsArticles function from `index.js` to Play
 
 I created workflows to run daily tests on various browsers on the latest Windows, Mac and Ubuntu operating systems.
 
-[![Open Actions](https://img.shields.io/badge/Open-Actions-brightgreen?style=for-the-badge)](https://github.com/nKashev/Playwright-interview-task/actions)
+[![Open Actions](https://img.shields.io/badge/Open-Actions-brightgreen?style=for-the-badge)](https://github.com/nKashev/Playwright-Automation-Task/actions)
