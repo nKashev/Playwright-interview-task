@@ -1,4 +1,4 @@
-# Playwright-interview-task
+# Playwright-Automation-Task
 
 A QA automation job application with a walk-through demonstration of my code, showing a successful execution of following task:
 
